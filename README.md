@@ -79,15 +79,17 @@ Room_No Number(10) constraint R_key Primary key,
 Last_clean DATE
 );
   ```
+
+
 2. Sweeper
-   ```sh
+  ```sh
   Create table Sweeper(
   Sweep_Id Number(10) constraint S_Id Primary key,
   Sweep_Name Char(20)
   );
-   ```
+  ```
 3. Student
-   ```js
+   ```sh
   Create table Student(
   Roll_No Number(10) constraint Stu_Id Primary Key,
   Room_No Number(10) references Room(Room_No),
