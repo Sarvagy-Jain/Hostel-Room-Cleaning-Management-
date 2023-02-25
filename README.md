@@ -81,12 +81,11 @@ Last_clean DATE
   ```
 2. Sweeper
    ```sh
-Create table Sweeper(
-Sweep_Id Number(10) constraint S_Id Primary key,
-Sweep_Name Char(20)
+  Create table Sweeper(
+  Sweep_Id Number(10) constraint S_Id Primary key,
+  Sweep_Name Char(20)
   );
    ```
-
 3. Student
    ```js
   Create table Student(
