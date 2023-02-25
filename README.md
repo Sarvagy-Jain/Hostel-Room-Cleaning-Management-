@@ -72,14 +72,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ### Create Tables
 
-1.Room
+1. Room
   ```sh
   Create table Room(
 Room_No Number(10) constraint R_key Primary key,
 Last_clean DATE
 );
   ```
-
 
 2. Sweeper
   ```sh
@@ -88,8 +87,9 @@ Last_clean DATE
   Sweep_Name Char(20)
   );
   ```
+
 3. Student
-   ```sh
+  ```sh
   Create table Student(
   Roll_No Number(10) constraint Stu_Id Primary Key,
   Room_No Number(10) references Room(Room_No),
@@ -97,7 +97,41 @@ Last_clean DATE
   Phone_No Number(13),
   Allotment_Date Date
   );
-   ```
+  ```
+  
+4.  Cleaning Slots
+  ```
+  Create table Slot(
+  Slot_Id Number(10) constraint Slot_Id Primary Key,
+  Time Date 
+  );
+  ```
+
+5.  Request
+```
+Create table Request 
+(
+Request_Id Number(10) constraint Req_Id Primary Key,
+Roll_No Number(10) references Student(Roll_No),
+Room_No Number(10) references Room(Room_No),
+Slot_Id Number(10) references Slot(Slot_Id),
+Request_Date Date
+);
+```
+
+6.  Cleaing Record
+```
+Create table Clean  
+(
+Request_Id Number(10) references Request(Request_Id) ,
+Room_No Number(10) references Room(Room_No),
+Sweep_Id Number(10) references Sweeper(Sweep_Id),
+Rating Number(1) default 0,
+Primary Key(Request_Id)
+);
+```
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
