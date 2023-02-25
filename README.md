@@ -62,7 +62,7 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![mysql][MYSQL]][Next-url]
+* [mysql][MYSQL]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,9 +75,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 1. Room
   ```sh
   Create table Room(
-Room_No Number(10) constraint R_key Primary key,
-Last_clean DATE
-);
+  Room_No Number(10) constraint R_key Primary key,
+  Last_clean DATE
+  );
   ```
 
 2. Sweeper
