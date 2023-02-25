@@ -4,10 +4,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <li><a href="#built-with">Built With</a></li>
-    </li>    
+      <li><a href="#about-the-project">About The Project</a><li>
+      <li><a href="#built-with">Built With</a></li>  
       <li><a href="#">Create Tables</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -26,8 +24,6 @@ To build and update Room Cleaning Data for our hostel with mysql. To fetch the c
 Here's why:
 * Data redundancy and inconsistency: The file system cannot control the redundancy of data as each user defines and maintains the needed files for a specific application to run.Whereas DBMS controls redundancy by maintaining a single repository of data that is defined once and is accessed by many users.
 * Data concurrency: Concurrent access to data means more than one user is accessing the same data at the same time. Anomalies occur when changes made by one user get lost because of changes made by another user. The file system does not provide any procedure to stop anomalies. Whereas DBMS provides a locking system to stop anomalies to occur.
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
