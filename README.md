@@ -17,13 +17,8 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul> 
-    </li>
-    <li>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    </li>    
+      <li><a href="#">Create Tables</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -46,19 +41,18 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [mysql][MYSQL]
-
+* [MYSQL][mysql]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Create Tables
 
-1. Room
+## 1. Room
 ```sh
 Create table Room(
 Room_No Number(10) constraint R_key Primary key,
