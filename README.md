@@ -1,12 +1,4 @@
 <a name="readme-top"></a>
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -14,9 +6,7 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul> 
+      <li><a href="#built-with">Built With</a></li>
     </li>    
       <li><a href="#">Create Tables</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -29,7 +19,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 
 To build and update Room Cleaning Data for our hostel with mysql. To fetch the complicated query from database. 
 
@@ -41,16 +31,16 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With
+### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [MYSQL][mysql]
+*[![My_SQL][MYSQL]][Mysql-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Create Tables
+### Create Tables
 
 ## 1. Room
 ```sh
@@ -61,7 +51,7 @@ Last_clean DATE
   
 ```
 
-2. Sweeper
+## 2. Sweeper
 ```sh
 Create table Sweeper(
 Sweep_Id Number(10) constraint S_Id Primary key,
@@ -69,7 +59,7 @@ Sweep_Name Char(20)
 );
   ```
 
-3. Student
+## 3. Student
   ```sh
   Create table Student(
   Roll_No Number(10) constraint Stu_Id Primary Key,
@@ -80,7 +70,7 @@ Sweep_Name Char(20)
   );
   ```
   
-4.  Cleaning Slots
+### 4.  Cleaning Slots
   ```
   Create table Slot(
   Slot_Id Number(10) constraint Slot_Id Primary Key,
@@ -88,7 +78,7 @@ Sweep_Name Char(20)
   );
   ```
 
-5.  Request
+### 5.  Request
 ```
 Create table Request 
 (
@@ -100,7 +90,7 @@ Request_Date Date
 );
 ```
 
-6.  Cleaing Record
+## 6.  Cleaing Record
 ```
 Create table Clean  
 (
@@ -112,12 +102,7 @@ Primary Key(Request_Id)
 );
 ```
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
