@@ -73,20 +73,21 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ### Create Tables
 
 1. Room
-  ```sh
-  Create table Room(
-  Room_No Number(10) constraint R_key Primary key,
-  Last_clean DATE
-  );
-  ```
+```sh
+Create table Room(
+Room_No Number(10) constraint R_key Primary key,
+Last_clean DATE
+);
+  
+```
 
 2. Sweeper
-  ```sh
-  Create table Sweeper(
-  Sweep_Id Number(10) constraint S_Id Primary key,
-  Sweep_Name Char(20)
-  );
-  ```
+```sh
+Create table Sweeper(
+Sweep_Id Number(10) constraint S_Id Primary key,
+Sweep_Name Char(20)
+);
+```
 
 3. Student
   ```sh
