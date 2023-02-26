@@ -6,8 +6,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#E-R Diagram">E-R Diagram</a></li>
-      
+    <li><a href="#E-R Diagram">E-R Diagram</a></li>  
     <li>
       <a href="#Create Tables">Create Tables</a>
       <ul>
