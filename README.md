@@ -15,6 +15,10 @@
       <ul>
         <li><a href="#Room">Room</a></li>
         <li><a href="#Sweeper">Sweeper</a></li>
+        <li><a href="#Student">Student</a></li>
+        <li><a href="#Cleaning Slots">Cleaning Slots</a></li>
+        <li><a href="#Request">Request</a></li>
+        <li><a href="#Cleaning Record">Cleaning Record</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -56,7 +60,7 @@ Last_clean DATE
   
 ```
 
-### 2. Sweeper
+### Sweeper
 ```sh
 Create table Sweeper(
 Sweep_Id Number(10) constraint S_Id Primary key,
@@ -64,7 +68,7 @@ Sweep_Name Char(20)
 );
   ```
 
-## 3. Student
+### Student
   ```sh
   Create table Student(
   Roll_No Number(10) constraint Stu_Id Primary Key,
@@ -75,7 +79,7 @@ Sweep_Name Char(20)
   );
   ```
   
-### 4.  Cleaning Slots
+### Cleaning Slots
   ```
   Create table Slot(
   Slot_Id Number(10) constraint Slot_Id Primary Key,
@@ -83,7 +87,7 @@ Sweep_Name Char(20)
   );
   ```
 
-### 5.  Request
+### Request
 ```
 Create table Request 
 (
@@ -95,7 +99,7 @@ Request_Date Date
 );
 ```
 
-## 6.  Cleaing Record
+### Cleaing Record
 ```
 Create table Clean  
 (
