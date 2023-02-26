@@ -10,7 +10,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#erdiagram">E-R Diagram</a><li>
+    <li><a href="#E-R Diagram">E-R Diagram</a><li>
       
     <li>
       <a href="#Create Tables">Create Tables</a>
@@ -46,20 +46,14 @@ Here's why:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-*[![My_SQL][MYSQL]][Mysql-url]
+[![My_SQL][MYSQL]][Mysql-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### erdiagram
+### E-R iagram
 ![E-R Diagram](https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/E-R_Diagram.png?raw=true)
 
-<!-- GETTING STARTED -->
 ### Create Tables
-
-<p align="center">
-  <img src="[https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/E-R_Diagram.png]" width="350" title="hover text">
-</p>
-
 ### Room
 ```sh
 Create table Room(
