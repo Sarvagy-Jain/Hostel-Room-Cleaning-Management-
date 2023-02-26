@@ -13,8 +13,8 @@
     <li>
       <a href="#Create Tables">Create Tables</a>
       <ul>
-        <li><a href="#1. Room">Room</a></li>
-        <li><a href="#2. Sweeper">Sweeper</a></li>
+        <li><a href="#Room">Room</a></li>
+        <li><a href="#Sweeper">Sweeper</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -47,7 +47,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ### Create Tables
 
-## 1. Room
+### Room
 ```sh
 Create table Room(
 Room_No Number(10) constraint R_key Primary key,
@@ -56,7 +56,7 @@ Last_clean DATE
   
 ```
 
-## 2. Sweeper
+### 2. Sweeper
 ```sh
 Create table Sweeper(
 Sweep_Id Number(10) constraint S_Id Primary key,
