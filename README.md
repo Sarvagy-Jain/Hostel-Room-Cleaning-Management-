@@ -6,17 +6,17 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#E-R Diagram">E-R Diagram</a></li>  
-    <li><a href="#Normalized Tables">Normalized Tables</a></li>
+    <li><a href="#E-R-Diagram">E-R Diagram</a></li>  
+    <li><a href="#Normalized-Tables">Normalized Tables</a></li>
     <li>
       <a href="#Create-Tables">Create Tables</a>
       <ul>
         <li><a href="#Room">Room</a></li>
         <li><a href="#Sweeper">Sweeper</a></li>
         <li><a href="#Student">Student</a></li>
-        <li><a href="#Cleaning Slots">Cleaning Slots</a></li>
+        <li><a href="#Cleaning-Slots">Cleaning Slots</a></li>
         <li><a href="#Request">Request</a></li>
-        <li><a href="#Cleaning Record">Cleaning Record</a></li>
+        <li><a href="#Cleaning-Record">Cleaning Record</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
