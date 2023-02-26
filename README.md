@@ -13,8 +13,8 @@
     <li>
       <a href="#Create Tables">Create Tables</a>
       <ul>
-        <li><a href="#1. Room">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#1. Room">Room</a></li>
+        <li><a href="#2. Sweeper">Sweeper</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
