@@ -9,9 +9,9 @@
     <li><a href="#E-R Diagram">E-R Diagram</a></li>  
     <li><a href="#Normalized Tables">Normalized Tables</a></li>
     <li>
-      <a href="#Create Tables">Create Tables</a>
+      <a href="#Create-Tables">Create Tables</a>
       <ul>
-        <li><a href="##Room">Room</a></li>
+        <li><a href="#Room">Room</a></li>
         <li><a href="#Sweeper">Sweeper</a></li>
         <li><a href="#Student">Student</a></li>
         <li><a href="#Cleaning Slots">Cleaning Slots</a></li>
@@ -25,11 +25,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ### About The Project
-
 To build and update Room Cleaning Data for our hostel with mysql. To fetch the complicated query from database. 
 
 Here's why:
@@ -43,7 +40,6 @@ Here's why:
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 [![My_SQL][MYSQL]][Mysql-url]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### E-R Diagram
 ![E-R Diagram](https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/E-R_Diagram.png?raw=true)
@@ -129,8 +125,6 @@ Project Link: [https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-]
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
