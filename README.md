@@ -53,6 +53,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ### Create Tables
 
+<p align="center">
+  <img src="[https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/E-R_Diagram.png]" width="350" title="hover text">
+</p>
+
 ### Room
 ```sh
 Create table Room(
