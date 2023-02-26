@@ -1,15 +1,11 @@
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
-<details>V
+<details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#E-R Diagram">E-R Diagram</a></li>
       
     <li>
@@ -23,6 +19,7 @@
         <li><a href="#Cleaning Record">Cleaning Record</a></li>
       </ul>
     </li>
+    
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
