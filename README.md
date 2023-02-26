@@ -42,13 +42,18 @@ Here's why:
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 [![My_SQL][MYSQL]][Mysql-url]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### E-R iagram
+### E-R Diagram
 ![E-R Diagram](https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/E-R_Diagram.png?raw=true)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Normalized Tables
+![Normalized Tables](https://github.com/Sarvagy-Jain/Hostel-Room-Cleaning-Management-/blob/main/Tables.png?raw=true)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Create Tables
+
 ### Room
 ```sh
 Create table Room(
